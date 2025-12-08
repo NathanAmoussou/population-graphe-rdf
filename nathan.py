@@ -12,6 +12,7 @@ print(f"Exemple du bloc 1 : {blocs[0]}")
 # REBEL
 
 from transformers import pipeline
+import pprint
 
 # 1. Chargement du pipeline REBEL
 # Le premier lancement téléchargera le modèle (~1.6 Go)
@@ -81,6 +82,7 @@ for i, bloc in enumerate(blocs):
     print(f"Bloc {i+1} : {len(triplets)} triplets extraits.")
 
 print(f"\nTerminé ! Total de triplets trouvés : {len(all_triplets)}")
+pprint.pprint(all_triplets)
 
 # Sortie :
 
