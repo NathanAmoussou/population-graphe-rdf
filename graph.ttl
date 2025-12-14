@@ -1,0 +1,31 @@
+@prefix ns1: <http://example.org/> .
+
+<http://dbpedia.org/resource/Boltzmann_machine> ns1:discoverer_or_inventor <http://dbpedia.org/resource/Terry_Sejnowski>,
+        ns1:David_Ackley .
+
+<http://dbpedia.org/resource/Christopher_Longuet-Higgins> ns1:employer <http://dbpedia.org/resource/Edinburgh> .
+
+<http://dbpedia.org/resource/David_Rumelhart> ns1:educated_at <http://dbpedia.org/resource/Carnegie_Mellon_University> .
+
+<http://dbpedia.org/resource/Mount_Everest> ns1:date_of_birth ns1:6_December_1947 ;
+    ns1:employer <http://dbpedia.org/resource/Toronto> ;
+    ns1:field_of_work <http://dbpedia.org/resource/Neural_network> ;
+    ns1:occupation <http://dbpedia.org/resource/Computer_scientist> .
+
+<http://dbpedia.org/resource/Open_access> ns1:subclass_of ns1:research_papers .
+
+<http://dbpedia.org/resource/Google> ns1:subsidiary <http://example.org/DNNresearch_Inc.> .
+
+<http://dbpedia.org/resource/Neural_network> ns1:part_of <http://dbpedia.org/resource/Cognitive_psychology> ;
+    ns1:use <http://dbpedia.org/resource/Machine_learning> .
+
+ns1:AlexNet ns1:discoverer_or_inventor ns1:Alex_Krizhevsky .
+
+ns1:Alex_Krizhevsky ns1:notable_work ns1:AlexNet .
+
+ns1:Brendan_Frey ns1:student_of ns1:Richard_Zemel .
+
+<http://example.org/DNNresearch_Inc.> ns1:parent_organization <http://dbpedia.org/resource/Google> .
+
+ns1:Richard_Zemel ns1:student ns1:Brendan_Frey .
+
